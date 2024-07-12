@@ -67,7 +67,18 @@ h1 {
 .content {
     display: flex;
     flex-direction: column;
-    margin-left: 2rem;
+    margin: 2rem;
+    gap:2rem;
+
+    .cardltr {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .wrapper {
+            max-width: 50%
+        }
+    }
 }
 
 body {
