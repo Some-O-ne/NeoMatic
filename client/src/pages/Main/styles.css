@@ -1,0 +1,79 @@
+@font-face {
+    font-family: ibmbios2;
+    src: url(Web437_IBM_BIOS.woff) format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+@keyframes dissapear {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.screenCard {
+    position: relative;
+    animation: dissapear;
+    animation-timeline: scroll();
+    animation-range: exit;
+    height: 100svh;
+    width: 100%;
+    background-image: url("/background.svg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+    .wrapper{
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        width: 100%;
+        height: 100%;
+        background-color: #00000088;
+        font-family: 'Courier New', Courier, monospace;
+
+    } 
+    
+}
+h1 {
+    font-family: ibmbios2;
+    font-weight: 500;
+    font-size: 3rem;
+}
+.brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 3rem;
+    justify-content: center;
+
+}
+.logo {
+    height: 10rem;
+    width: 10em;
+    font-size: medium;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: #111;
+    color: white;
+    
+}
