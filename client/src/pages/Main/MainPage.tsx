@@ -22,9 +22,12 @@ export const MainPage:FC<Props> = (props) => {
         </div>
     </div>
     <div className="content">
-        <div className="cardltr">
+        <div className="card">
             <div className="wrapper"><h1>What is NeoMatic?</h1>
-            <p>NeoMatic is a reinvention of Talkomatic, a 1973 pioneering chat room program created by University of Illinois for PLATO computer systems that revolutionized chatting. Prepare to experience ye olden days, when the boundaries of technology and human interaction started to blur.</p></div>
+            <p>NeoMatic is a reinvention of Talkomatic, a 1973 pioneering chat room program created by University of Illinois for PLATO computer systems that revolutionized chatting. Prepare to experience ye olden days, when the boundaries of technology and human interaction started to blur.</p>
+            <a href="/chat" className="button">Start Talking</a>
+            </div>
+            
             <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/PLATO-Talkomatic.png" alt="" />
         </div>
     </div>
