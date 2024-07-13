@@ -1,0 +1,12 @@
+{
+    "name": "neomatic",
+    "version": "1.0.0",
+    "description": "NeoMatic full server",
+    "type": "module",
+    "scripts": {
+        "dev": "concurrently 'cd server && npm run start' 'cd client && npm run dev'"
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+  }
